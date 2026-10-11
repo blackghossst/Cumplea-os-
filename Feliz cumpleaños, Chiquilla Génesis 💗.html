@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feliz cumpleaños, Chiquilla Génesis 💗</title>
+<style>
+  :root{--pink:#ff7da8;--rose:#ffe0eb;--cream:#fffaf4;--purple:#9b7bd3;--ink:#62485d}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Trebuchet MS",Arial,sans-serif;color:var(--ink);background:linear-gradient(135deg,#fff8f2,#ffeaf2 55%,#f4edff);overflow-x:hidden}
+  .floaties span{position:fixed;bottom:-50px;font-size:24px;opacity:.55;animation:float 12s linear infinite;z-index:0;pointer-events:none}
+  .floaties span:nth-child(1){left:8%;animation-delay:0s}.floaties span:nth-child(2){left:24%;animation-delay:4s}.floaties span:nth-child(3){left:43%;animation-delay:1s}.floaties span:nth-child(4){left:68%;animation-delay:6s}.floaties span:nth-child(5){left:88%;animation-delay:2s}
+  @keyframes float{to{transform:translateY(-115vh) rotate(35deg);opacity:0}}
+  .wrap{position:relative;z-index:1;max-width:900px;margin:auto;padding:28px 18px 48px}
+  .hero{text-align:center;padding:46px 22px 34px;border:1px solid #fff;background:#ffffffb8;border-radius:30px;box-shadow:0 18px 55px #d9a6bd35;overflow:hidden}
+  .tag{display:inline-block;background:#fff0f5;color:#c75e88;padding:8px 15px;border-radius:99px;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase}
+  h1{font-family:Georgia,serif;font-size:clamp(2.5rem,8vw,5rem);line-height:1.05;color:#d95f91;margin:18px 0 10px}
+  h1 span{display:block;color:#9878c9;font-style:italic}
+  .subtitle{font-size:clamp(1rem,3vw,1.2rem);line-height:1.7;max-width:620px;margin:0 auto 22px}
+  .cake{font-size:clamp(3rem,10vw,5.2rem);filter:drop-shadow(0 7px 8px #e7a7be55);animation:bob 2.4s ease-in-out infinite}
+  @keyframes bob{50%{transform:translateY(-8px)}}
+  button{border:0;border-radius:999px;background:linear-gradient(100deg,#ff7da8,#b28be7);color:white;font-weight:bold;font-size:1rem;padding:14px 24px;cursor:pointer;box-shadow:0 8px 20px #d77eae40;transition:transform .2s}
+  button:hover{transform:translateY(-2px) scale(1.02)}
+  .section{margin-top:22px;padding:28px 25px;background:#ffffffc9;border:1px solid #fff;border-radius:25px;box-shadow:0 12px 35px #d9a6bd22}
+  h2{text-align:center;color:#b06cb0;font-family:Georgia,serif;font-size:clamp(1.6rem,5vw,2.2rem);margin:0 0 18px}
+  .message{font-size:1.06rem;line-height:1.9;text-align:center;max-width:700px;margin:auto}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}
+  .card{padding:20px 16px;background:linear-gradient(145deg,#fff6fa,#f8f2ff);border-radius:20px;text-align:center;border:1px solid #f6dce9}
+  .card .emoji{font-size:2rem}.card h3{margin:9px 0 6px;color:#cf6e9b}.card p{line-height:1.6;margin:0;font-size:.96rem}
+  .quote{font-family:Georgia,serif;font-style:italic;font-size:1.25rem;text-align:center;line-height:1.8;color:#9878c9}
+  .signature{text-align:center;font-size:1.1rem;margin-top:18px;color:#cc6895;font-weight:bold}
+  .footer{text-align:center;padding:26px 10px 0;font-size:.9rem;color:#987d98}
+  #surprise{display:none;margin-top:18px;background:#fff4fa;border:1px dashed #e99cbd;border-radius:18px;padding:18px;line-height:1.8;animation:appear .5s ease}
+  @keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  @media(max-width:480px){.hero{padding:35px 17px 28px}.section{padding:23px 17px}}
+</style>
+</head>
+<body>
+<div class="floaties" aria-hidden="true"><span>💗</span><span>🌸</span><span>✨</span><span>🎈</span><span>💖</span></div>
+<main class="wrap">
+  <section class="hero">
+    <div class="tag">✨ Un día muy especial ✨</div>
+    <div class="cake">🎂</div>
+    <h1>¡Feliz cumpleaños,<span>Chiquilla Génesis!</span></h1>
+    <p class="subtitle">Hoy celebramos a una persona muy especial, con un corazón bonito y el maravilloso don de llenar de alegría los días de tantos pequeñitos. 💕</p>
+    <button onclick="showSurprise()">💌 Abrir tu carta sorpresa</button>
+    <div id="surprise">
+      <div style="font-size:2rem;margin-bottom:8px">💗🌷💖</div>
+      <strong style="font-family:Georgia,serif;font-size:1.35rem;color:#c75e88">Para ti, mi chiquilla Génesis</strong>
+      <p>🎂 ¡Feliz cumpleaños, chiquilla hermosa! 💕 Hoy es un día especial porque celebramos la vida de una personita que merece todas las cosas bonitas del mundo.</p>
+      <p>Deseo que Dios te regale mucha salud, amor, felicidad y fuerzas para seguir cumpliendo cada uno de tus sueños. Que nunca pierdas esa linda esencia que te hace ser tú, ni esa ternura con la que compartes tu cariño con los pequeñitos. 🧸🌸</p>
+      <p>Espero que hoy sonrías muchísimo, que te consientan como mereces y que tu corazón se llene de alegría. Nunca olvides lo especial y valiosa que eres.</p>
+      <p><strong style="color:#c75e88">¡Feliz cumpleaños, chiquilla!</strong> 🎉💖 Que la vida siempre tenga cosas hermosas preparadas para ti. 🌷✨</p>
+      <div style="font-size:1.7rem;margin-top:10px">💌 🎈 🌸</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Para una maestra maravillosa 🌈</h2>
+    <p class="message">Ser maestra de parvularia es sembrar amor en corazones pequeñitos, enseñar con paciencia y convertir los días comunes en recuerdos especiales. Que toda la ternura, alegría y dedicación que compartes con tus niños regresen a ti multiplicadas. Gracias por hacer del mundo un lugar más dulce, chiquilla. 🧸🌼</p>
+  </section>
+
+  <section class="section">
+    <h2>Mis deseos para ti 🎁</h2>
+    <div class="cards">
+      <article class="card"><div class="emoji">🌸</div><h3>Mucho amor</h3><p>Que siempre estés rodeada de personas que te quieran bonito y valoren tu gran corazón.</p></article>
+      <article class="card"><div class="emoji">✨</div><h3>Sueños cumplidos</h3><p>Que este nuevo año de vida te acerque a todo eso que tanto deseas.</p></article>
+      <article class="card"><div class="emoji">🎈</div><h3>Risas y alegría</h3><p>Que nunca te falten motivos para reír, bailar, celebrar y disfrutar cada momento.</p></article>
+    </div>
+  </section>
+
+  <section class="section">
+    <p class="quote">“Que nunca se te olvide la luz tan bonita que llevas dentro y la huellita de amor que dejas en cada personita que tiene la suerte de conocerte.”</p>
+    <p class="signature">Con mucho cariño, para ti, chiquilla Génesis. 💗</p>
+  </section>
+  <div class="footer">Hecho con cariño, sonrisas y muchos corazoncitos. 🌷💞<br>¡Que tu día esté lleno de magia!</div>
+</main>
+<script>
+function showSurprise(){
+  const box=document.getElementById('surprise');
+  box.style.display=box.style.display==='block'?'none':'block';
+  if(box.style.display==='block'){
+    for(let i=0;i<24;i++){
+      const el=document.createElement('span');
+      el.textContent=['💖','✨','🌸','🎉'][Math.floor(Math.random()*4)];
+      el.style.cssText=`position:fixed;left:${Math.random()*100}vw;top:${Math.random()*85}vh;font-size:${16+Math.random()*20}px;pointer-events:none;z-index:5;transition:all 1.8s ease-out`;
+      document.body.appendChild(el);
+      requestAnimationFrame(()=>{el.style.transform=`translate(${(Math.random()-.5)*150}px,${80+Math.random()*180}px) rotate(${Math.random()*240}deg)`;el.style.opacity='0'});
+      setTimeout(()=>el.remove(),1900);
+    }
+  }
+}
+</script>
+</body>
+</html>
